@@ -1,0 +1,22 @@
+button{
+    box-shadow:0 0 5px cyan,0 0 25px cyan;
+    margin: 50px;
+    padding: 15px 30px;
+    color: black;
+    border: 5px solid linear-gradient(to bottom,black,cyan,blue);
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: bolder;
+    border: none;
+    background-color: cadetblue;
+
+    
+
+}
+button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,  0 0 20px cyan;
+    transform: translate(50%);
+    background-color: black;
+    color: white;
+    
+}
